@@ -65,9 +65,9 @@ function calculateSum(num1, num2, callback) {
 
 function checkEvenOdd(sum) {
     if (sum % 2 === 0) {
-        console.log(The sum ${sum} is even.);
+        console.log(The total sum ${sum} is even.);
     } else {
-        console.log(The sum ${sum} is odd.);
+        console.log(The total sum ${sum} is odd.);
     }
 }
 
