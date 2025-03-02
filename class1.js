@@ -1,4 +1,4 @@
-//Class: 1
+//Class : 1
 
 // // In js we can call a function befor defining it. (property of js)
 // showMe();
