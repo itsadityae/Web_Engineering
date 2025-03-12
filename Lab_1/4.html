@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: black;
+            font-size: 16px;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+
+        .container {
+            width: 85%;
+            margin: 30px auto;
+            padding: 25px;
+            background-color: #fff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        header h1 {
+            font-size: 26px;
+            margin: 0;
+            color: black;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        main {
+            display: grid;
+            grid-template-columns: 3fr 1fr;
+            gap: 20px;
+        }
+
+        .left-column {
+            padding-right: 15px;
+        }
+
+        .right-column {
+            background-color: #f9f9f9;
+            padding: 15px;
+            border-radius: 8px;
+            border: 1px solid #e0e0e0;
+        }
+
+        h2 {
+            font-size: 18px;
+            margin-top: 20px;
+            color: black;
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 5px;
+        }
+
+        p, li {
+            line-height: 1.6;
+        }
+
+        ul {
+            list-style-type: circle;
+            margin-left: 20px;
+        }
+
+        aside ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        aside ul li::before {
+            content: '\2022';
+            color: black;
+            margin-right: 8px;
+        }
+
+        .container section {
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Curriculum Vitae</h1>
+        </header>
+
+        <main>
+            <section class="left-column">
+                <h2>Personal Details</h2>
+                <p>Name: Eslavath Aditya</p>
+                <p>Email: adityaedq@gmail.com</p>
+                <p>Phone: +91 8125638379</p>
+
+                <h2>Education</h2>
+                <p><strong>Bachelor of Computer Science</strong></p>
+                <p>IIIT SURAT, 2022-2026</p>
+
+                <h2>Experience</h2>
+                <p><strong>Project Lead at IIIT Surat</strong></p>
+                <ul>
+                    <li>Developed a waste management website using machine learning</li>
+                    <li>Technologies: Python, JavaScript, TensorFlow, MongoDB, Node.js</li>
+                </ul>
+                <p><strong>Participant</strong></p>
+                <p>Stanford University (Online), 2024</p>
+                <ul>
+                    <li>Worked on machine learning algorithms</li>
+                    <li>Technologies: Python, TensorFlow, Scikit-learn</li>
+                </ul>
+
+                <h2>Skills</h2>
+                <ul>
+                    <li>Data Science</li>
+                    <li>Machine Learning</li>
+                    <li>Artificial Intelligence</li>
+                    <li>Programming: Python, JavaScript, C++, MySQL</li>
+                </ul>
+
+                <h2>Hobbies</h2>
+                <ul>
+                    <li>Watching movies</li>
+                    <li>Exploring new technologies</li>
+                    <li>Reading technical blogs</li>
+                </ul>
+            </section>
+
+            <aside class="right-column">
+                <h2>Mark-up & Design Info</h2>
+                <p>Normal text:</p>
+                <ul>
+                    <li>Font: Arial</li>
+                    <li>Color: Black</li>
+                    <li>Size: 16px</li>
+                </ul>
+                <p>Additional styles:</p>
+                <ul>
+                    <li>Headers: Underlined</li>
+                    <li>List items: Circle points</li>
+                </ul>
+            </aside>
+        </main>
+    </div>
+</body>
+</html>
