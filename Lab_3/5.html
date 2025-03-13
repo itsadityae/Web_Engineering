@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas Image</title>
+    <style>
+        body {
+            background-color: #f0f8ff; 
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        h2 {
+            color: #708090; 
+        }
+        canvas {
+            background-color: #fafafa; 
+            border: 2px solid #dcdcdc; 
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Canvas Image</h2>
+    <canvas id="myCanvas" width="770" height="520" style="border:1px solid #000;"></canvas>
+    <script>
+        var canvas = document.getElementById("myCanvas");
+        var ctx = canvas.getContext("2d");
+        var img = new Image();
+        img.src = "DSC00585.jpg"; 
+        img.onload = function() {
+            ctx.drawImage(img, 10, 10, 750, 500);
+        };
+    </script>
+</body>
+</html>
